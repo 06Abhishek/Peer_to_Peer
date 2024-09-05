@@ -4,7 +4,7 @@
 
 Peer-to-Peer(P2P) Technologies are being widely used for sharing the data between the
 servers and the clients. One of the major technology for file sharing that is implemented nowadays
-is the Napster-Style Peer-to-Peer File Sharing System.
+is the Peer-to-Peer File Sharing System.
 The older versions of the systems used to have a single server which stores the files in its
 directory that are received from the clients. The major drawback of these systems was that if a new
 file has been created in one of the peers, it must be transferred to the server before another peer
@@ -38,10 +38,5 @@ The peers provide the following interface to the users:
 1. Register – registers the file into the server
 2. Search – searches the server for a file and returns the list of Clients 
 3. Download – downloads the file from another Client
-
-
-How to Run the Project::
--> Run the makefile using the make command
--> Follow the instructions
 
 For starting different peers (i.e., Clients), use different command prompts for execution
